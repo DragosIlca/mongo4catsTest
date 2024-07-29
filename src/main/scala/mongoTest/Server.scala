@@ -7,7 +7,7 @@ import cats.effect.*
 import org.http4s.ember.server.*
 import org.http4s.implicits.*
 
-object Playground extends IOApp {
+object Server extends IOApp {
 
 	override def run(
 		args: List[String]

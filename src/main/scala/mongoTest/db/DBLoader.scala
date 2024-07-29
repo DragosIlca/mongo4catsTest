@@ -1,10 +1,9 @@
-package mongoTest
+package mongoTest.db
 
 import cats.effect.{IO, Resource}
+import mongo4cats.client.*
 import mongoTest.db.impl.BooksDAOImpl
 import mongoTest.models.types.Book
-
-import mongo4cats.client._
 
 object DBLoader {
 
